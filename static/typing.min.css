@@ -1,0 +1,1 @@
+.typed-cursor{opacity:1}.typed-cursor.typed-cursor--blink{animation:.7s infinite typedjsBlink;-webkit-animation:.7s infinite typedjsBlink}@keyframes typedjsBlink{50%{opacity:0}}@-webkit-keyframes typedjsBlink{0%,100%{opacity:1}50%{opacity:0}} .typing{text-align:center;font-family:Comfortaa;font-size:2.5rem;color:#90ee90}

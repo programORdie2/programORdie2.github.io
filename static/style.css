@@ -1,10 +1,76 @@
- aboutme {
-  background-color: black;
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+ body {
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+  }
+  
+ div {
+   position: relative;
+  }
+  
+ body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('https://programordie.neocities.org/static/bgsmall.png');
+
+  /* Full height */
+  height: 100%;
+  z-index: 1;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .box {
+  background-color: white;
+  padding: 10px 20px;
+  width: 50%;
+  margin-left: 25%; 
+  overflow: auto;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ 
+ .typing {
+  z-index: 2;
+  background-color: lightgrey;
   padding: 10px;
   width: 50%;
   margin-left: 25%; 
   overflow: auto;
   border-radius: 10px;
-  color: white;
-  font-size: 10px;
+  font-size: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ a {
+   color: black;
+   text-decoration: none;
  }
+
+a:hover {
+   color: darkgreen;
+   cursor: pointer;
+   text-decoration: underline;
+ }
+a:active {
+  color: orange;
+  text-decoration: underline;
+}
+.title {
+   color: darkblue;
+   font-size: 35px;
+ }
+
+.copy-right-sec{
+  padding: 1.8rem;
+    background: lightgrey;
+    color: black;
+    text-align: center;
+}

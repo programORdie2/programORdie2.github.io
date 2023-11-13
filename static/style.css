@@ -9,6 +9,7 @@
   
  body, html {
   height: 100%;
+  width: 100%;
 }
 
 .parallax {
@@ -73,4 +74,15 @@ a:active {
     background: lightgrey;
     color: black;
     text-align: center;
+}
+
+.linkicon {
+  text-decoration: none;
+  transition: 0.8s;
+  height: 50px;
+}
+
+.linkicon:hover {
+  text-decoration: none;
+  rotate: 360deg;
 }

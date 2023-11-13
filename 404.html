@@ -4,10 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Not Found</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <meta property='og:title' content='Page Not Found!'/>
+    <meta property='og:description' content="Website not found on programORdies site"/>
+  <meta name="language" content="US">
+  <meta name="og:type" content="website"/>
+  <meta name="owner" content="programORdie">
+  <meta name="og:country-name" content="Belgium"/>
+  <link rel="icon" href="https://programordie.neocities.org/static/faveicon.png" type="image/x-icon" sizes="any"/>
+  <link rel="shortcut icon" href="https://programordie.neocities.org/static/faveicon.png" type="image/x-icon" sizes="any"/>
+  <meta property='og:image' content='https://programordie.neocities.org/static/faveicon.png'/>
+  <meta property='og:image:secure_url' content='https://programordie.neocities.org/static/faveicon.png'/>
+  <meta property='og:image:type' content='image/png'/>
+  <meta property='og:image:width' content='300px'/>
+  <meta property='og:image:height' content='300px'/>
+  <meta property='og:image:alt' content="An image of pod's pfp"/>
+    <style>
+    @import url('"https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #38a1ff;
+}
+
+.card{
+    background-color: #38a1ff;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+}
+
+
+.grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 600px 600px;
+    align-items: center;
+    height: 35rem;
+    justify-items: end;
+}
+
+
+.error{
+    z-index: 1;
+    position: relative;
+}
+
+.error span{
+    font-size: 90px;
+    color: #150035;
+    font-weight: 900;
+    white-space: pre-line;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-shadow: 1px 7px 1px #fff;
+}
+.error p{
+    color: #fff;
+    white-space: pre-line;
+    padding-top: 25px;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.img{width: 800px;}
+.img img{
+    width: 60%;
+}
+button{
+    width: 100px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    border: none;
+    background-color:#150035 ;
+    color:#ffb000 ;
+    position: relative;
+   
+}
+button:hover {
+  cursor: pointer;
+}
+
+button::after{
+    content: '';
+    width: 96px;
+    height: 35px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    z-index: -1;
+}
+    </style>
   </head>
   <body>
-    <h1>Page Not Found</h1>
-    <p>The requested page was not found.</p>
-  </body>
+     <div class="card">
+     <div class="grid">
+         <div class="error">
+               <span>404
+                error
+               </span>
+           <p>Page Not Found!<br/>
+          This page doesn't exist, or it's removed.<br/>But, we've lots of other cool stuff, so why don't check out the homebage?</p>
+         <a href="/"><button>Home</button></a>
+      </div>
+       <div class="img">
+          <img src="https://www.consulentepaziente.it/wp-content/uploads/2021/05/n1m-img-trasformazione-digitale-pmi-2.png" align="right" >
+      </div>
+   </div>
+</div> 
+</body>
 </html>

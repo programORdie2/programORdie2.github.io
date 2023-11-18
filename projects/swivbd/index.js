@@ -13,7 +13,7 @@ return result
 function getswivbd() {
     document.getElementById('loading_out').innerHTML = '<div class="loading" id="loading"></div>';
     let user = document.getElementById('input').value;
-    let url = "https://cors-anywhere.herokuapp.com/"+"https://programordie-1-b6431438.deta.app/swivbd/get?user="+user+"&max=-1";
+    let url = 'https://corsproxy.io/?' + encodeURIComponent('https://programordie-1-b6431438.deta.app/swivbd/get?user='+user+'&max=-1');
   fetch(url, {
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
